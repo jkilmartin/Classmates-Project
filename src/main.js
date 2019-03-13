@@ -1,12 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-
 import App from "./App.vue";
+
+import Ashleigh from "./components/ashleigh/Ashleigh";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: Home },
+  { path: "/ashleigh", component: Ashleigh }
 ];
 
 const router = new VueRouter({
