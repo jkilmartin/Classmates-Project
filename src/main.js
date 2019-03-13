@@ -9,9 +9,11 @@ import Ashleigh from "./components/ashleigh/Ashleigh";
 
 const routes = [
   { path: "/jeremy", component: Jeremy },
-  { path: "/ashleigh", component: Ashleigh }
+  { path: "/ashleigh", component: Ashleigh },
   { path: "/lyndon", component: Lyndon }
 ];
+
+Vue.use(VueRouter);
 
 const router = new VueRouter({
   routes,
