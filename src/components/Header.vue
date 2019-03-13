@@ -1,7 +1,10 @@
 <template>
   <nav>
     <ul>
-    <li><router-link v-bind:to="'/'">Home</router-link></li>
+      <nav>
+        <router-link v-bind:to="'/'">Lyndon</router-link>
+      
+      </nav>
     </ul>
   </nav>
 </template>
@@ -14,13 +17,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-.router-link-active {
+.router-link-exact-active {
   font-weight: bold;
 }
 
 ul li {
   list-style: none;
 }
-
 </style>
