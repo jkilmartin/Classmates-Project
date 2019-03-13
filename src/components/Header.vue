@@ -1,7 +1,8 @@
 <template>
   <nav>
     <ul>
-    <li><router-link v-bind:to="'/'"></router-link></li>
+    <li><router-link v-bind:to="'/'">Home</router-link></li>
+    <li><router-link v-bind:to="'/'">Jeremy</router-link></li>
     </ul>
   </nav>
 </template>

@@ -1,12 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-
+import Jeremy from "./components/jeremy/Jeremy.vue";
 import App from "./App.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: Home },
+  { path: "/jeremy", component: Jeremy },
 ];
 
 const router = new VueRouter({
