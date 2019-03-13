@@ -3,14 +3,14 @@ import VueRouter from "vue-router";
 
 import App from "./App.vue";
 
+import Jeremy from "./components/jeremy/Jeremy.vue";
 import Lyndon from "./components/lyndon/Lyndon";
-
-
-Vue.use(VueRouter);
+import Ashleigh from "./components/ashleigh/Ashleigh";
 
 const routes = [
-  { path: "/", component: Lyndon }
- 
+  { path: "/jeremy", component: Jeremy },
+  { path: "/ashleigh", component: Ashleigh }
+  { path: "/lyndon", component: Lyndon }
 ];
 
 const router = new VueRouter({
